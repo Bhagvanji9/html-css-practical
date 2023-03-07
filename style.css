@@ -17,24 +17,22 @@
   .header {
       display: flex;
       width: 100%;
-      height: 56px;
-      background-color: #2874f0;
+      height:6.349206349206349vh;
+      background-color: #3a78db;
       outline: 1px solid black;
       justify-content: safe
   }
 
   .logo {
-      height: 56;
-      width: 75;
       font-size: small;
-      margin: 10px;
+      margin: 1.1337868480725624vh;
       justify-content: center;
   }
 
   .blank1 {
       background-color: inherit;
-      width: 350px;
-      height: 56px;
+      width: 18.229166666666668vw;
+      height: 6.349206349206349vh;
   }
 
   .sublogo {
@@ -42,16 +40,16 @@
   }
 
   .logo2 {
-      margin-top: -5px;
-      font-size: 10px;
+      margin-top: -0.5668934240362812vh;
+      font-size: 0.625em;
       font-style: italic;
       text-align: center;
   }
 
   .search {
       display: flex;
-      height: 35px;
-      width: 450px;
+      height: 3.9682539682539684vh;
+      width: 51.02040816326531vh;
       justify-content: center;
       align-items: center;
       padding: 10px;
@@ -59,7 +57,7 @@
 
   .search1 {
       display: flex;
-      height: 35px;
+      height: 3.9682539682539684vh;
       width: 100%;
       justify-content: center;
       align-items: center;
@@ -71,8 +69,8 @@
 
   .searchbtn {
       display: flex;
-      height: 35px;
-      width: 35px;
+      height: 3.9682539682539684vh;
+      width: 1.8229166666666667vw;
       justify-content: center;
       align-items: center;
       border: none;
@@ -85,18 +83,18 @@
       justify-content: center;
       border: none;
       outline: none;
-      margin: 10px;
-      margin-left: -50px;
+      margin: 1.1337868480725624vh;
+      margin-left: -2.6041666666666665vw;
   }
 
   .login {
       display: flex;
-      height: 30px;
-      width: 120px;
+      height: 3.401360544217687vh;
+      width: 6.25vw;
       justify-content: center;
       background-color: #fff;
       margin: 12px;
-      margin-left: 250px;
+      margin-left: 13.020833333333334vw;
 
   }
 
@@ -109,7 +107,7 @@
 
   .morearrow {
       display: flex;
-      width: 50px;
+      width: 2.6041666666666665vw;
       /* height: 200px; */
       justify-content: space-between;
       margin: 18px;
@@ -126,8 +124,8 @@
   .arrowup svg {
       display: flex;
       transform: rotate(270deg);
-      height: 10px;
-      width: 18px;
+      height: 1.1337868480725624vh;
+      width: 0.9375vw;
       margin-top: 5px;
   }
 
@@ -136,55 +134,42 @@
   }
 
   .moremenu {
-      /* display: none; */
-      /* display: flex; */
       display: none;
       background-color: #fff;
       flex-direction: column;
       position: absolute;
-
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
-      width: 200px;
-      top: 55px;
-      right: 390px;
-      /* padding: 10px?; */
-      /* padding: ; */
-
+      width: 10.416666666666666vw;
+      top: 6.235827664399093vh;
+      right: 20.3125vw;
   }
-  .moremenu a{
-    /* outline: 1px solid black; */
-    
-    width:auto;
-    border-bottom: 1px solid #000;
-    padding:10px 0px 10px;
-    color: #000;
-    text-decoration: none;
-    font-size: 15px;
-    /* padding: 10px; */
-}
+
+  .moremenu a {
+      width: auto;
+      border-bottom: 1px solid #000;
+      padding: 10px 0px 10px;
+      color: #000;
+      text-decoration: none;
+      font-size: 15px;
+  }
 
   .moremenu a:hover {
       background-color: #ffffff;
       width: 100%;
-     
+
   }
 
   .morearrow:hover .moremenu {
-     display:flex;
-     position:absolute;
-     color: #000;
-  }
-
-  /* .morearrow:hover .more {
-      background-color: #ffffff;
+      display: flex;
+      position: absolute;
       color: #000;
-  } */
+  }
 
   .CartA {
       display: flex;
       margin: 20px;
-      margin-left: 70px;
+      margin-left: 3.6458333333333335vw;
       justify-content: space-between;
   }
 
@@ -199,17 +184,17 @@
       justify-content: center;
       text-align: center;
       flex-wrap: wrap;
-      width: 1280px;
-      height: 80px;
+      width: 66.66666666666667vw;
+      height: 9.070294784580499vh;
       position: relative;
-      margin: 0px 112px;
+      margin: 0px 5.833333333333333vw;
   }
 
   .images {
       display: flex;
       margin: auto;
-      width: 50px;
-      height: 50px;
+      width: 2.6041666666666665vw;
+      height: 5.668934240362812vh;
   }
 
   .svgo {
@@ -218,7 +203,7 @@
   }
 
   #image9 {
-      height: 120px;
+      height: 13.605442176870747vh;
   }
 
   .option {
@@ -248,7 +233,7 @@
   .product1 {
       display: flex;
       width: 107%;
-      height: 350px;
+      height:39.682539682539684vh;
       background-color: #fff;
       text-align: center;
       margin-top: 1px;
@@ -259,24 +244,24 @@
   .product2 {
       display: flex;
       width: 93%;
-      height: 350px;
+      height:39.682539682539684vh;
       background-color: #fff;
       text-align: center;
       margin-top: 1px;
-      margin-bottom: 15px;
+      margin-bottom: 1.7006802721088434vh;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
   }
 
   .product1 img {
-      width: 140px;
-      height: 160px;
-      margin: 35px 0px;
+      width: 7.291666666666667vw;
+      height: 18.140589569160998vh;
+      margin: 3.9682539682539684vh 0px;
   }
 
   .product2 img {
-      width: 140px;
-      height: 160px;
-      margin: 35px 0px;
+      width:7.291666666666667vw;
+      height: 18.140589569160998vh;
+      margin:  3.9682539682539684vh 0px;
   }
 
   .pname {
@@ -296,16 +281,16 @@
   }
 
   .pd {
-      padding: 20px 10px;
-      width: 200px;
+      padding: 2.2675736961451247vh 0.5208333333333334vw;
+      width: 10.416666666666666vw;
   }
 
   .deal {
       display: flex;
       width: 100%;
-      height: 50px;
+      height: 5.668934240362812vh;
       background-color: white;
-      margin-top: 10px;
+      margin-top: 1.1337868480725624vh;
       align-items: center;
       font-size: larger;
       white-space: nowrap;
@@ -315,15 +300,15 @@
       background-color: #2874f0;
       color: white;
       border: none;
-      width: 100px;
-      height: 37px;
+      width: 5.208333333333333vw;
+      height: 4.195011337868481vh;
 
   }
 
   .viewall {
       width: 100%;
       justify-content: end;
-      margin-right: 10px;
+      margin-right: 0.5208333333333334vw;
   }
 
   .product:first-child {
@@ -333,9 +318,9 @@
   .deal1 {
       display: flex;
       width: 93%;
-      height: 63px;
+      height:7.142857142857143vh;
       background-color: white;
-      margin-top: 20px;
+      margin-top: 2.2675736961451247vh;
       align-items: center;
       font-size: medium;
       white-space: nowrap;
@@ -346,15 +331,15 @@
       background-color: #2874f0;
       color: white;
       border: none;
-      width: 100px;
-      height: 37px;
+      width: 5.277044854881266vw;
+      height: 4.101995565410199vh;
 
   }
 
   .viewall1 {
       width: 100%;
       justify-content: end;
-      margin-right: 10px;
+      margin-right: 0.5277044854881267vw;
   }
 
   .deal2 {
@@ -390,7 +375,7 @@
 
   .add {
       width: fit-content;
-      height: 400px;
+      height: 45.24589800443459vh;
       margin-top: 11px;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
 
@@ -398,17 +383,15 @@
 
   .add img {
       width: 100%;
-      height: 67.443932411674346vh
-      ;
+      height: 45.24589800443459vh;
+      z-index: 4;
 
   }
 
   .sidescroll {
-      /* position: absolute; */
-      /* position: fixed; */
-      right: 20%;
-      width: 30px;
-      height: 85px;
+
+      width: 1.6910935738444195vw;
+      height: 10.54590570719603vh;
       background-color: white;
       display: flex;
       align-items: center;
@@ -418,23 +401,24 @@
 
   .sidescroll svg {
       transform: rotate(180deg);
-      height: 20px;
-      ;
-      width: 55px;
+      height:2.2675736961451247vh;
+      width: 2.8645833333333335vw;
   }
 
   .sidescroll1 {
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 3;
   }
 
   .product a {
       text-decoration: none;
   }
-  .sq{
-    height: 15px;
-    width: 15px;
-    background:white;
-    z-index: 2;
+
+  .sq {
+      height: 15px;
+      width: 15px;
+      background: white;
+      z-index: 2;
   }
